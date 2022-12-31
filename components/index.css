@@ -12,6 +12,7 @@
 button {
   background: none;
   border: none;
+  cursor: pointer;
 }
 :root {
   --white: #ffffff;
@@ -31,6 +32,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  padding: 1rem;
 }
 .nav_main_divider {
   display: flex;
