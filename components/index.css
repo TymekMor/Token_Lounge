@@ -39,3 +39,8 @@ main {
 .nav_main_divider {
   display: flex;
 }
+@media only screen and (max-width: 900px) {
+  main {
+    flex: 0.9;
+  }
+}

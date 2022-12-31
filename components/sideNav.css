@@ -7,6 +7,16 @@
   font-size: 13px;
   border-right: 1px solid rgba(255, 255, 255, 0.1);
 }
+.sideNav__buttons {
+  gap: 1rem;
+  padding: 3rem 0rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  width: 85%;
+  display: none;
+}
+.sideNav__buttons button {
+  padding: 1rem 2rem;
+}
 .sideNav__socials {
   display: flex;
   justify-content: center;
@@ -22,6 +32,7 @@
 .sideNav__socials li {
   display: flex;
   align-items: center;
+  cursor: pointer;
   gap: 6px;
 }
 .sideNav__blog {
@@ -31,6 +42,13 @@
   justify-content: center;
   align-items: center;
   padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.75rem;
+  transition: 200ms all;
+}
+.sideNav__blog:hover {
+  background: rgba(255, 255, 255, 0.03);
 }
 .sideNav__blog > h1 {
   font-style: normal;
@@ -45,6 +63,14 @@
   list-style: none;
   gap: 2rem;
   color: rgba(255, 255, 255, 0.6);
+}
+.sideNav__blog > ul > li {
+  transition: 200ms all;
+}
+.sideNav__blog > ul > li:hover {
+  color: #ffffff;
+  text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
+  cursor: pointer;
 }
 .sideNav__learn {
   padding: 2rem 0rem;
@@ -66,4 +92,31 @@
 }
 .sideNav__learn li:last-child {
   background: url("../images/Frame\ 1000002907.png");
+}
+.hidden {
+  transform: translateX(-100%);
+}
+@media only screen and (max-width: 900px) {
+  .sideNav {
+    position: fixed;
+    background: radial-gradient(
+      103.96% 103.96% at 56.56% 0%,
+      #0f224d 0%,
+      #000000 100%
+    );
+    width: 100%;
+    z-index: 1000;
+  }
+  .sideNav__learn {
+    display: none;
+  }
+  .sideNav__socials {
+    display: none;
+  }
+  .sideNav__buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
