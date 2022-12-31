@@ -1,0 +1,44 @@
+.legend {
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1rem;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.5em;
+}
+.legend__column {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.legend__column > li > div {
+  line-height: 1em;
+}
+.legend span {
+  font-size: 12px;
+  color: var(--white);
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 3rem;
+}
+.about h1 {
+  color: var(--white);
+  font-size: 24px;
+}
+.about__table {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.about__column {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

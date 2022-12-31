@@ -85,8 +85,7 @@
   align-items: center;
   padding: 0.25rem;
 }
-.tokens__list > li > div:nth-child(1) {
-}
+
 .tokens__list > li > div:nth-child(2) {
   gap: 0.5rem;
 }
@@ -100,8 +99,9 @@
 .tokens__list > li > div:nth-child(3) {
   gap: 4px;
 }
-.tokens__list > li > div:nth-child(3) > div {
+.badge {
   font-size: 7px;
+  display: inline-block;
   padding: 1em;
   background-color: rgb(23, 208, 106);
   border-radius: 1em;
