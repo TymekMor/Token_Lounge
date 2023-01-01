@@ -62,7 +62,7 @@
   flex-direction: column;
   list-style: none;
   gap: 2rem;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--text-white);
 }
 .sideNav__blog > ul > li {
   transition: 200ms all;
@@ -94,16 +94,18 @@
   background: url("../images/Frame\ 1000002907.png");
 }
 .hidden {
-  transform: translateX(-100%);
+  transform: translateX(0);
 }
 @media only screen and (max-width: 900px) {
   .sideNav {
     position: fixed;
+    top: 90px;
     background: radial-gradient(
       103.96% 103.96% at 56.56% 0%,
       #0f224d 0%,
       #000000 100%
     );
+    height: calc(100vh - 90px);
     width: 100%;
     z-index: 1000;
   }
@@ -118,5 +120,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .hidden {
+    transform: translateX(-100%);
   }
 }

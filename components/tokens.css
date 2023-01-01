@@ -14,7 +14,7 @@
   padding: 1rem;
   border-radius: 1rem;
   background: rgba(255, 255, 255, 0.05);
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--text-white);
   transition: 200ms all;
 }
 .tokensNav button:hover {
@@ -30,7 +30,7 @@
   position: absolute;
   font-size: 0.5rem;
   background: rgba(255, 255, 255, 0.08);
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--text-white);
   padding: 1em;
   border-radius: 1em;
   top: -2rem;
@@ -49,8 +49,9 @@
 .tokens__labels {
   display: grid;
   grid-template-columns: 2rem repeat(7, 1fr);
+  gap: 0.5rem;
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--text-white);
   padding: 0.5rem 1rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -71,10 +72,13 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  overflow: auto;
 }
 .tokens__list > li {
   background: rgba(255, 255, 255, 0.05);
   border-radius: 6px;
+  width: 100%;
+  min-width: min-content;
   display: grid;
   grid-template-columns: 2rem repeat(7, 1fr);
   padding: 0.5rem 1rem;

@@ -12,19 +12,25 @@
     <link rel="stylesheet" href="./banner.css" />
     <link rel="stylesheet" href="./legend.css" />
     <link rel="stylesheet" href="./footer.css" />
+    <link rel="stylesheet" href="./hamburger.css" />
+    <link rel="stylesheet" href="./blog.css" />
     <script src="./index.js" defer></script>
   </head>
-  <body>
+  <body class="">
     <header class="header">
-      <div class="header__logo">Token <span>Lounge</span></div>
+      <div class="header__logo" id="logo">Token <span>Lounge</span></div>
       <div class="header__buttons">
         <button>AD YOUR CASINO</button>
         <button class="highlight">CONTACT US</button>
-        <div class="dropdown">sideNav</div>
+        <div class="hamburger" id="hamburger__menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
     </header>
     <div class="nav_main_divider">
-      <nav class="sideNav">
+      <nav class="sideNav hidden">
         <div class="sideNav__buttons">
           <button>AD YOUR CASINO</button>
           <button class="highlight">CONTACT US</button>
@@ -38,12 +44,14 @@
         <div class="sideNav__blog">
           <h1>Blog</h1>
           <ul>
-            <li>How to choose a right</li>
-            <li>Most profitable projects</li>
-            <li>Understanding Tokenomics</li>
-            <li>Best projects in 2022</li>
+            <li id="how_to">How to choose a right project</li>
+            <li id="tokenomics">Understanding Tokenomics</li>
+            <li id="understanding">Most profitable projects</li>
+            <!-- 
+              
+              <li>Best projects in 2022</li>
             <li>About pump and dump</li>
-            <li>Smart Investor</li>
+            <li>Smart Investor</li>-->
           </ul>
         </div>
         <div class="sideNav__learn">
@@ -53,7 +61,7 @@
           </ul>
         </div>
       </nav>
-      <main>
+      <main class="not__visible">
         <section class="banner">
           <div class="banner__text"></div>
           <div class="banner__token"></div>
@@ -173,8 +181,8 @@
             <li>
               <div class="badge">SAFU</div>
               - Secure Asset Fund for Users is a crypto-asset security fund
-              established by Binance, the world’s largest cryptocurrency
-              exchange. It is a reserve fund that serves to protect the users’
+              established by Binance, the world's largest cryptocurrency
+              exchange. It is a reserve fund that serves to protect the users'
               funds in the event of a security breach, hack, or other emergency.
             </li>
             <li>
@@ -236,6 +244,282 @@
               </p>
             </div>
           </div>
+        </section>
+        <footer>
+          <div class="footer__logo">Token <span>Lounge</span></div>
+          <ul>
+            <li><img src="../images/Vector.png" /> Twitter</li>
+            <li><img src="../images/Frame 1000002685.png" /> Instagram</li>
+          </ul>
+        </footer>
+      </main>
+      <main class="not__visible">
+        <section class="banner__blog">
+          <div class="banner__blog__bitcoin"></div>
+          <div class="banner__blog__text"></div>
+        </section>
+        <section class="blog">
+          <div class="blog__desc">
+            Tokenomics, or token economics, are the economics of tokens in the
+            crypto world. It refers to the study of the economic impact of token
+            issuance and distribution within a given crypto project. Tokenomics
+            is a key component of a crypto project's overall success, as it can
+            have a significant impact on the network's security, scalability,
+            and sustainability. This blog will provide an overview of tokenomics
+            in crypto projects, including why tokenomics are important, what
+            factors come into play, and what trends to look for when researching
+            and investing in crypto projects.
+          </div>
+          <h1 class="blog__title">Tokenomics in Crypto Projects</h1>
+          <ul class="blog__content">
+            <li>
+              <h1>What is Tokenomics?</h1>
+              <p>
+                Tokenomics is the study of how tokens are used in a crypto
+                project and how they affect the economics of the project. It
+                includes the study of a crypto project's token supply, token
+                distribution, token incentives, token holders, and other
+                economic factors. Tokenomics is an essential component of any
+                crypto project, as it helps to determine the project's overall
+                success and potential.
+              </p>
+            </li>
+            <li>
+              <h1>Why is Tokenomics Important?</h1>
+              <p>
+                Tokenomics is important because it helps to ensure the long-term
+                sustainability of a crypto project. It helps to ensure that a
+                project has enough tokens in circulation to support its network
+                and that the tokens are distributed in a way that is beneficial
+                for the project's growth and development. Tokenomics also helps
+                to ensure that the project is secure and that token holders have
+                an incentive to hold and use the tokens.
+              </p>
+            </li>
+            <li>
+              <h1>What Factors Come Into Play?</h1>
+              <p>
+                When it comes to tokenomics, there are several factors that come
+                into play. These include the project's token supply, token
+                distribution, token incentives, token holders, and other
+                economic factors.
+              </p>
+              <p>
+                The project's token supply is important because it affects the
+                total number of tokens that are available for circulation. The
+                token distribution is important because it affects how the
+                tokens are distributed among holders and how much of the token
+                supply is held by the project team. Token incentives are
+                important because they help to encourage users to hold and use
+                the tokens. Finally, token holders are important because they
+                help to ensure a stable token supply and a secure network
+              </p>
+            </li>
+            <li>
+              <h1>Trends to Look For</h1>
+              <p>
+                When researching and investing in crypto projects, there are
+                several trends to look for. First, look for projects that have a
+                well-thought-out tokenomics plan. This plan should include a
+                detailed explanation of the project's token supply, token
+                distribution, token incentives, token holders, and other
+                economic factors. Second, look for projects that have a secure
+                and reliable token supply. Third, look for projects that have an
+                active and engaged token holder community. Finally, look for
+                projects that have a good track record of successful token
+                launches and token incentives.
+              </p>
+            </li>
+            <li>
+              <h1>Conclusion</h1>
+              <p>
+                Tokenomics is an important component of any crypto project's
+                success. It helps to ensure the project's long-term
+                sustainability and helps to ensure that the project has enough
+                tokens in circulation to support its network. When researching
+                and investing in crypto projects, it is important to look for
+                projects that have a well-thought-out tokenomics plan, a secure
+                and reliable token supply, an active and engaged token holder
+                community, and a good track record of successful token launches
+                and token incentives.
+              </p>
+            </li>
+          </ul>
+        </section>
+        <footer>
+          <div class="footer__logo">Token <span>Lounge</span></div>
+          <ul>
+            <li><img src="../images/Vector.png" /> Twitter</li>
+            <li><img src="../images/Frame 1000002685.png" /> Instagram</li>
+          </ul>
+        </footer>
+      </main>
+      <main class="not__visible">
+        <section class="banner__blog">
+          <div class="banner__blog__bitcoin"></div>
+          <div class="banner__blog__text"></div>
+        </section>
+        <section class="blog">
+          <div class="blog__desc">
+            As the cryptocurrency market continues to grow, more investors are
+            looking to take advantage of the opportunities it offers. Deciding
+            which project to invest in can be an overwhelming task, especially
+            if you are new to the world of crypto. Whether you're an experienced
+            investor or a novice, it's important to have a process for selecting
+            the right project to invest in.
+          </div>
+          <h1 class="blog__title">How to Choose The Project to Invest In?</h1>
+
+          <ol>
+            <h2>How to Choose The Project to Invest In?</h2>
+            <li>
+              Research the project and the team behind it: Before investing in
+              any project, it's important to do your due diligence. Make sure
+              you understand the project and the team behind it. Research the
+              team's experience and background and read up on the project's
+              roadmap and technology. It's also important to understand the
+              project's token economics and how it will benefit from the
+              project's success. Diversify your investments: Don't put all your
+              eggs in one basket.
+            </li>
+
+            <li>
+              Look at the project's track record: Look at the project's past
+              successes and failures. Has the project been able to achieve its
+              goals in the past? Have the project's developers been able to
+              deliver on their promises? If the project has a long track record
+              of success, then it's likely a good project to invest in.
+            </li>
+            <li>
+              Analyze the project's potential: Once you've done your research,
+              take a look at the project's potential. What makes this project
+              different and why should you invest in it? What's the project's
+              competitive advantage over other projects? Is it a valid use case
+              for the technology?
+            </li>
+            <li>
+              Monitor the project's progress: Once you've decided to invest in a
+              project, it's important to monitor its progress. Look for any
+              updates on the project's development, such as new features,
+              partnerships, or any other news. This will help you stay informed
+              on the progress of the project and make sure you're making a sound
+              investment.
+            </li>
+            <li>
+              Diversifying your investments is an important part of investing in
+              crypto projects. Spread your investments across multiple projects
+              to reduce the risk of any one project failing.
+            </li>
+            <p>
+              Choosing the right project to invest in can be a daunting task.
+              But by following these tips, you can make an informed decision and
+              increase your chances of success. At Crypto Listing, we provide a
+              comprehensive list of the latest crypto projects, games, and
+              tokens, so you can easily find the project that's right for you.
+              With our in-depth analysis and research, you can rest assured that
+              you'll make the right investment decision.
+            </p>
+          </ol>
+        </section>
+        <footer>
+          <div class="footer__logo">Token <span>Lounge</span></div>
+          <ul>
+            <li><img src="../images/Vector.png" /> Twitter</li>
+            <li><img src="../images/Frame 1000002685.png" /> Instagram</li>
+          </ul>
+        </footer>
+      </main>
+      <main>
+        <section class="banner__blog">
+          <div class="banner__blog__bitcoin"></div>
+          <div class="banner__blog__text"></div>
+        </section>
+        <section class="blog">
+          <div class="blog__desc">
+            Cryptocurrency tokens are digital assets that can be used as a store
+            of value, medium of exchange, and unit of account. They are created
+            on the blockchain and are used to represent a variety of different
+            assets, including tokens for games, collectibles, and other digital
+            assets.
+          </div>
+          <h1 class="blog__title">
+            Understanding the Different Cryptocurrency Token Markets
+          </h1>
+          <p>
+            The cryptocurrency token market is constantly evolving, with new
+            projects launching every day. With the increasing popularity of
+            cryptocurrency, understanding the different types of tokens and the
+            markets they represent can be an overwhelming task. In this blog,
+            we’ll explore the different types of cryptocurrency token markets,
+            the advantages and disadvantages of each, and the best ways to
+            invest in them.
+          </p>
+          <p>
+            Security Tokens Security tokens are cryptocurrency tokens that
+            represent a share in a company, project, or asset. They offer
+            investors the ability to invest in a variety of traditional and
+            alternative assets, such as stocks, real estate, and art.
+          </p>
+          <ul>
+            <li>
+              <span>Security Tokens</span> - Security tokens are cryptocurrency
+              tokens that represent a share in a company, project, or asset.
+              They offer investors the ability to invest in a variety of
+              traditional and alternative assets, such as stocks, real estate,
+              and art.
+            </li>
+            <li>
+              <span>Utility Tokens</span> - Utility tokens are cryptocurrency
+              tokens that offer access to a product or service. They can be used
+              to pay for goods and services, receive discounts, or gain access
+              to exclusive features. Utility tokens are typically used in the
+              context of a specific application or platform, such as a gaming
+              platform or marketplace.
+            </li>
+          </ul>
+          <p>
+            Unlike security tokens, utility tokens are not subject to the same
+            regulatory oversight and are not designed to provide investors with
+            a return on investment.
+          </p>
+          <ul>
+            <li>
+              <span>Asset-Backed Tokens Asset</span> - backed tokens are
+              cryptocurrency tokens that are backed by a physical asset, such as
+              gold or real estate. These tokens can be used to represent the
+              ownership of a particular asset, allowing investors to trade and
+              invest in an asset without having to physically own it.
+            </li>
+            <li>
+              <span>Stablecoins</span> - stablecoins are cryptocurrency tokens
+              designed to maintain a stable price. They are typically backed by
+              a reserve asset, such as gold or a fiat currency, and are designed
+              to minimize volatility and provide investors with a safe haven
+              from the volatility of the cryptocurrency markets.
+            </li>
+          </ul>
+          <p>
+            Stablecoins are a popular investment option, as they provide
+            investors with a way to preserve their capital while still
+            participating in the cryptocurrency markets.
+          </p>
+        </section>
+        <section class="blog__conclusion">
+          <h1>Conclusion</h1>
+          <p>
+            Cryptocurrency token markets are a rapidly evolving asset class,
+            with new projects launching every day. Understanding the different
+            types of tokens and their associated markets is essential for
+            investors looking to invest in the cryptocurrency space. Security
+            tokens, utility tokens, asset-backed tokens, and stablecoins are the
+            four most common types of cryptocurrency tokens. Each type of token
+            offers its own advantages and disadvantages, and it’s important for
+            investors to understand the associated risks before investing. By
+            familiarizing yourself with the different token markets, you can
+            make informed decisions about which tokens to invest in and which
+            ones to avoid. With the right strategy, investing in cryptocurrency
+            tokens can be a profitable venture.
+          </p>
         </section>
         <footer>
           <div class="footer__logo">Token <span>Lounge</span></div>
