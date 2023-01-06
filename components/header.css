@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap");
 .header {
   padding: 1.5rem 2rem;
   display: flex;
@@ -24,6 +25,9 @@
 }
 .header__buttons button {
   padding: 1rem 2rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
 }
 .highlight {
   background: #2c5dc9;

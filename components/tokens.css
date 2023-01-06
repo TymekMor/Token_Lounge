@@ -6,9 +6,10 @@
   white-space: nowrap;
 }
 .tokensNav {
-  padding: 1rem;
+  padding: 1rem 0rem;
   display: flex;
   gap: 0.75rem;
+  top: 0;
 }
 .tokensNav button {
   padding: 1rem;
@@ -42,53 +43,98 @@
   margin-right: auto;
   width: min-content;
   white-space: nowrap;
+  opacity: 0;
+  transition: all 200ms;
+}
+.tokensNav button:nth-child(2):hover::after,
+.tokensNav button:nth-child(3):hover::after {
+  opacity: 1;
+}
+.tokens__wrap {
+  display: block;
+  overflow-x: auto;
 }
 .tokens__labels {
   display: grid;
-  grid-template-columns: 2rem repeat(7, 1fr);
+  grid-template-columns: var(--desktop-grid);
   gap: 0.5rem;
   font-size: 14px;
   color: var(--text-white);
+  width: 1156px;
   padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 .tokens__labels div {
+  display: flex;
   min-width: min-content;
 }
 
-.tokens__labels div:nth-child(4),
 .tokens__labels div:nth-child(5),
 .tokens__labels div:nth-child(6),
-.tokens__labels div:nth-child(7) {
-  display: flex;
-  justify-content: center;
+.tokens__labels div:nth-child(4) {
+  justify-content: flex-end;
 }
 
+.tokens__labels div:nth-child(7) {
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  position: relative;
+}
+.tokens__labels div:nth-child(7)::after {
+  content: "Vip ranking is designed to recognize projects that have a track record of success in the space, and are committed to helping the crypto community grow and thrive. It takes into account factors such as the project's team members, marketing presence, technology, and potential impact on the ecosystem. The higher the CryptoVIP score, the more likely the project is to succeed.";
+  z-index: 1000;
+  font-size: 0.5rem;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-white);
+  height: 89px;
+  width: 335px;
+  line-height: 12px;
+  white-space: normal;
+  border-radius: 5.9731550216674805px;
+  padding: 1em;
+  border-radius: 1em;
+  position: absolute;
+  bottom: -100px;
+  opacity: 0;
+  transition: all 200ms;
+}
+.tokens__labels div:nth-child(7):hover::after {
+  opacity: 1;
+}
+.tokens__labels div:nth-child(7) span {
+  font-size: 9px;
+}
 .tokens__list {
   font-size: 13px;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  padding: 0.5rem 4px;
+  gap: 12px;
+  width: 1156px;
   overflow: auto;
 }
 .tokens__list > li {
   background: rgba(255, 255, 255, 0.05);
   border-radius: 6px;
-  width: 100%;
   min-width: min-content;
+  width: 100%;
   display: grid;
-  grid-template-columns: 2rem repeat(7, 1fr);
-  padding: 0.5rem 1rem;
+  grid-template-columns: var(--desktop-grid);
+  padding: 0.75rem 1rem;
 }
 .tokens__list > li > div {
-  min-width: min-content;
   display: flex;
+  overflow: hidden;
   align-items: center;
-  padding: 0.25rem;
 }
 
 .tokens__list > li > div:nth-child(2) {
   gap: 0.5rem;
+}
+.tokens__list > li > div:nth-child(2) img {
+  border: 1.2px solid #c5c5c7;
 }
 .tokens__list > li > div:nth-child(2) img {
   width: 2rem;
@@ -117,7 +163,10 @@
   background: #cf67f1;
 }
 .DOXX {
-  background: #f7ce5b;
+  background: #f4b70f;
+}
+.tokens__list > li > div:nth-child(5) {
+  gap: 4px;
 }
 .tokens__list > li > div:nth-child(5) img {
   width: 1rem;
@@ -134,9 +183,12 @@
   object-fit: cover;
   object-position: center;
 }
-.tokens__list > li > div:nth-child(4),
 .tokens__list > li > div:nth-child(5),
 .tokens__list > li > div:nth-child(6),
+.tokens__list > li > div:nth-child(4) {
+  justify-content: flex-end;
+}
+
 .tokens__list > li > div:nth-child(7) {
   justify-content: center;
 }
@@ -156,10 +208,14 @@
     inset 0px -1.52239px 0px rgba(0, 0, 0, 0.25);
   border-radius: 6px;
 }
+.tokens__slider {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
 
 .tokens__slider ul {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   padding: 1rem 2rem;
   gap: 0.5rem;
   list-style: none;
@@ -176,4 +232,22 @@
 .current {
   color: var(--white);
   background: rgba(255, 255, 255, 0.08);
+}
+.tokens__list > li:nth-child(1),
+.tokens__list > li:nth-child(2),
+.tokens__list > li:nth-child(3) {
+  box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.8);
+  border-radius: 6px;
+}
+@media only screen and (max-width: 900px) {
+  .tokens__list {
+    width: 1000px;
+  }
+  .tokens__labels {
+    width: 1000px;
+    grid-template-columns: var(--desktop-grid);
+  }
+  .tokens__list > li {
+    grid-template-columns: var(--desktop-grid);
+  }
 }

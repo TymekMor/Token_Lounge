@@ -47,9 +47,9 @@ for (let i = 0; i < sideNavBlogs.length; i++) {
 console.clear();
 const logo = document.getElementById("logo");
 logo.addEventListener("click", () => {
-  renderTokenPage(1, 10);
+  renderTokenPage(1, 20);
   removeSideNav();
 });
 window.onload = () => {
-  renderTokenPage(1, 10);
+  renderTokenPage(1, 20);
 };

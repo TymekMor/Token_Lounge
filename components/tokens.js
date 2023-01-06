@@ -24,13 +24,13 @@ class token {
     this.vipRanking = vipRanking;
   }
 }
-const renderToken = (coin, renderPlace) => {
-  if (Object.keys(coin).length != 9) {
+const renderToken = (coin, renderPlace, id) => {
+  if (Object.keys(coin).length != 8) {
     return;
   }
   const token = document.createElement("li");
   const one = document.createElement("div");
-  one.textContent = coin.id;
+  one.textContent = id;
   const two = document.createElement("div");
   const twoImg = document.createElement("img");
   const twoText = document.createElement("div");
@@ -38,21 +38,27 @@ const renderToken = (coin, renderPlace) => {
   twoText.textContent = coin.coin;
   two.append(twoImg, twoText);
   const three = document.createElement("div");
-  coin.badges.forEach((badge) => {
+  if (coin.badges.length == 0) {
     const badgeDiv = document.createElement("div");
-    badgeDiv.className = "badge";
-    const temp = (badgeDiv.textContent = badge.toUpperCase());
-    if (temp == "KYC") {
-      badgeDiv.classList.add(temp);
-    } else if (temp == "AUDIT") {
-      badgeDiv.classList.add(temp);
-    } else if (temp == "SAFU") {
-      badgeDiv.classList.add(temp);
-    } else if (temp == "DOXX") {
-      badgeDiv.classList.add(temp);
-    }
+    badgeDiv.textContent = "not verified";
     three.append(badgeDiv);
-  });
+  } else {
+    coin.badges.forEach((badge) => {
+      const badgeDiv = document.createElement("div");
+      badgeDiv.className = "badge";
+      const temp = (badgeDiv.textContent = badge.toUpperCase());
+      if (temp == "KYC") {
+        badgeDiv.classList.add(temp);
+      } else if (temp == "AUDIT") {
+        badgeDiv.classList.add(temp);
+      } else if (temp == "SAFU") {
+        badgeDiv.classList.add(temp);
+      } else if (temp == "DOXX") {
+        badgeDiv.classList.add(temp);
+      }
+      three.append(badgeDiv);
+    });
+  }
 
   const four = document.createElement("div");
   four.textContent = coin.gen;
@@ -119,12 +125,12 @@ const renderTokenPage = (pageIndex, pageNumber) => {
   removeChildNodes(renderPointPage);
 
   tokenList.sort((a, b) => {
-    return a.vipRanking - b.vipRanking;
+    return b.vipRanking - a.vipRanking;
   });
   const currentPage = tokenList.slice(index, index + pageNumber);
-  currentPage.forEach((current) => {
-    renderToken(current, renderPointPage);
-  });
+  for (let i = 0; i < currentPage.length; i++) {
+    renderToken(currentPage[i], renderPointPage, i + 1 + index * 20);
+  }
 
   main.appendChild(mainPage);
 };

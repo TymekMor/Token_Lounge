@@ -1,6 +1,75 @@
 [
   {
-    "id": "1",
+    "coinImgUrl": "../images/soldier 1.png",
+    "coin": "T doge food",
+    "badges": [],
+    "gen": "Game",
+    "chainImgUrl": "../images/eth.svg",
+    "chain": "BSC",
+    "phase": "PRESALE",
+    "vipRanking": "11"
+  },
+  {
+    "coinImgUrl": "../images/soldier 1.png",
+    "coin": "T doge food",
+    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
+    "gen": "Game",
+    "chainImgUrl": "../images/bsc.svg",
+    "chain": "BSC",
+    "phase": "PRESALE",
+    "vipRanking": "122"
+  },
+  {
+    "coinImgUrl": "../images/soldier 1.png",
+    "coin": "T doge food",
+    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
+    "gen": "Game",
+    "chainImgUrl": "../images/btc.png",
+    "chain": "BSC",
+    "phase": "PRESALE",
+    "vipRanking": "2123"
+  },
+  {
+    "coinImgUrl": "../images/soldier 1.png",
+    "coin": "T doge food",
+    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
+    "gen": "Game",
+    "chainImgUrl": "../images/btc.png",
+    "chain": "BSC",
+    "phase": "PRESALE",
+    "vipRanking": "221"
+  },
+  {
+    "coinImgUrl": "../images/soldier 1.png",
+    "coin": "T doge food",
+    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
+    "gen": "Game",
+    "chainImgUrl": "../images/btc.png",
+    "chain": "BSC",
+    "phase": "PRESALE",
+    "vipRanking": "232"
+  },
+  {
+    "coinImgUrl": "../images/soldier 1.png",
+    "coin": "T doge food",
+    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
+    "gen": "Game",
+    "chainImgUrl": "../images/btc.png",
+    "chain": "BSC",
+    "phase": "PRESALE",
+    "vipRanking": "2123"
+  },
+  {
+    "coinImgUrl": "../images/soldier 1.png",
+    "coin": "T doge food",
+    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
+    "gen": "Game",
+    "chainImgUrl": "../images/btc.png",
+    "chain": "BSC",
+    "phase": "PRESALE",
+    "vipRanking": "25"
+  },
+  {
     "coinImgUrl": "../images/soldier 1.png",
     "coin": "T doge food",
     "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
@@ -11,95 +80,6 @@
     "vipRanking": "2"
   },
   {
-    "id": "2",
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "NFT",
-    "chainImgUrl": "../images/btc.png",
-    "chain": "BSC",
-    "phase": "PREsALE",
-    "vipRanking": "1"
-  },
-  {
-    "id": "3",
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "NFT",
-    "chainImgUrl": "../images/btc.png",
-    "chain": "BSC",
-    "phase": "PREsALE",
-    "vipRanking": "3"
-  },
-  {
-    "id": "4",
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "NFT",
-    "chainImgUrl": "../images/btc.png",
-    "chain": "BSC",
-    "phase": "PREsALE",
-    "vipRanking": "11"
-  },
-  {
-    "id": "4",
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T miauku food",
-    "badges": ["KYC", "AUDIT"],
-    "gen": "NFT",
-    "chainImgUrl": "../images/eth.png",
-    "chain": "ETH",
-    "phase": "alpha",
-    "vipRanking": "11"
-  },
-  {
-    "id": "4",
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "NFT",
-    "chainImgUrl": "../images/btc.png",
-    "chain": "BSC",
-    "phase": "PREsALE",
-    "vipRanking": "11"
-  },
-  {
-    "id": "4",
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T miauku food",
-    "badges": ["KYC", "AUDIT"],
-    "gen": "NFT",
-    "chainImgUrl": "../images/eth.png",
-    "chain": "ETH",
-    "phase": "alpha",
-    "vipRanking": "11"
-  },
-  {
-    "id": "4",
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "NFT",
-    "chainImgUrl": "../images/btc.png",
-    "chain": "BSC",
-    "phase": "PREsALE",
-    "vipRanking": "11"
-  },
-  {
-    "id": "4",
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T miauku food",
-    "badges": ["KYC", "AUDIT"],
-    "gen": "NFT",
-    "chainImgUrl": "../images/eth.png",
-    "chain": "ETH",
-    "phase": "alpha",
-    "vipRanking": "11"
-  },
-  {
-    "id": "1",
     "coinImgUrl": "../images/soldier 1.png",
     "coin": "T doge food",
     "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
@@ -110,355 +90,123 @@
     "vipRanking": "2"
   },
   {
-    "id": "2",
     "coinImgUrl": "../images/soldier 1.png",
     "coin": "T doge food",
     "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "NFT",
+    "gen": "Game",
     "chainImgUrl": "../images/btc.png",
     "chain": "BSC",
-    "phase": "PREsALE",
-    "vipRanking": "1"
+    "phase": "PRESALE",
+    "vipRanking": "2"
   },
   {
-    "id": "3",
     "coinImgUrl": "../images/soldier 1.png",
     "coin": "T doge food",
     "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "NFT",
+    "gen": "Game",
     "chainImgUrl": "../images/btc.png",
     "chain": "BSC",
-    "phase": "PREsALE",
-    "vipRanking": "3"
+    "phase": "PRESALE",
+    "vipRanking": "2"
   },
   {
-    "id": "4",
     "coinImgUrl": "../images/soldier 1.png",
     "coin": "T doge food",
     "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "NFT",
+    "gen": "Game",
     "chainImgUrl": "../images/btc.png",
     "chain": "BSC",
-    "phase": "PREsALE",
-    "vipRanking": "11"
+    "phase": "PRESALE",
+    "vipRanking": "2"
   },
   {
-    "id": "4",
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T miauku food",
-    "badges": ["KYC", "AUDIT"],
-    "gen": "NFT",
-    "chainImgUrl": "../images/eth.png",
-    "chain": "ETH",
-    "phase": "alpha",
-    "vipRanking": "11"
-  },
-  {
-    "id": "4",
     "coinImgUrl": "../images/soldier 1.png",
     "coin": "T doge food",
     "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "NFT",
+    "gen": "Game",
     "chainImgUrl": "../images/btc.png",
     "chain": "BSC",
-    "phase": "PREsALE",
-    "vipRanking": "11"
+    "phase": "PRESALE",
+    "vipRanking": "2"
   },
   {
-    "id": "4",
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T miauku food",
-    "badges": ["KYC", "AUDIT"],
-    "gen": "NFT",
-    "chainImgUrl": "../images/eth.png",
-    "chain": "ETH",
-    "phase": "alpha",
-    "vipRanking": "11"
-  },
-  {
-    "id": "4",
     "coinImgUrl": "../images/soldier 1.png",
     "coin": "T doge food",
     "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "NFT",
+    "gen": "Game",
     "chainImgUrl": "../images/btc.png",
     "chain": "BSC",
-    "phase": "PREsALE",
-    "vipRanking": "11"
+    "phase": "PRESALE",
+    "vipRanking": "2"
   },
   {
-    "id": "4",
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T miauku food",
-    "badges": ["KYC", "AUDIT"],
-    "gen": "NFT",
-    "chainImgUrl": "../images/eth.png",
-    "chain": "ETH",
-    "phase": "alpha",
-    "vipRanking": "11"
-  },
-  {
-    "id": "4",
     "coinImgUrl": "../images/soldier 1.png",
     "coin": "T doge food",
     "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "NFT",
+    "gen": "Game",
     "chainImgUrl": "../images/btc.png",
     "chain": "BSC",
-    "phase": "PREsALE",
-    "vipRanking": "11"
+    "phase": "PRESALE",
+    "vipRanking": "2"
   },
   {
-    "id": "4",
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T miauku food",
-    "badges": ["KYC", "AUDIT"],
-    "gen": "NFT",
-    "chainImgUrl": "../images/eth.png",
-    "chain": "ETH",
-    "phase": "alpha",
-    "vipRanking": "11"
-  },
-  {
-    "id": "4",
     "coinImgUrl": "../images/soldier 1.png",
     "coin": "T doge food",
     "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "NFT",
+    "gen": "Game",
     "chainImgUrl": "../images/btc.png",
     "chain": "BSC",
-    "phase": "PREsALE",
-    "vipRanking": "11"
+    "phase": "PRESALE",
+    "vipRanking": "2"
   },
   {
-    "id": "4",
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T miauku food",
-    "badges": ["KYC", "AUDIT"],
-    "gen": "NFT",
-    "chainImgUrl": "../images/eth.png",
-    "chain": "ETH",
-    "phase": "alpha",
-    "vipRanking": "11"
-  },
-  {
-    "id": "4",
     "coinImgUrl": "../images/soldier 1.png",
     "coin": "T doge food",
     "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "NFT",
+    "gen": "Game",
     "chainImgUrl": "../images/btc.png",
     "chain": "BSC",
-    "phase": "PREsALE",
-    "vipRanking": "11"
+    "phase": "PRESALE",
+    "vipRanking": "2"
   },
   {
-    "id": "4",
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T miauku food",
-    "badges": ["KYC", "AUDIT"],
-    "gen": "NFT",
-    "chainImgUrl": "../images/eth.png",
-    "chain": "ETH",
-    "phase": "alpha",
-    "vipRanking": "11"
-  },
-  {
-    "id": "4",
     "coinImgUrl": "../images/soldier 1.png",
     "coin": "T doge food",
     "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "NFT",
+    "gen": "Game",
     "chainImgUrl": "../images/btc.png",
     "chain": "BSC",
-    "phase": "PREsALE",
-    "vipRanking": "11"
+    "phase": "PRESALE",
+    "vipRanking": "2"
   },
   {
-    "id": "4",
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T miauku food",
-    "badges": ["KYC", "AUDIT"],
-    "gen": "NFT",
-    "chainImgUrl": "../images/eth.png",
-    "chain": "ETH",
-    "phase": "alpha",
-    "vipRanking": "11"
-  },
-  {
-    "id": "4",
     "coinImgUrl": "../images/soldier 1.png",
     "coin": "T doge food",
     "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "NFT",
+    "gen": "Game",
     "chainImgUrl": "../images/btc.png",
     "chain": "BSC",
-    "phase": "PREsALE",
-    "vipRanking": "11"
+    "phase": "PRESALE",
+    "vipRanking": "2"
   },
   {
-    "id": "4",
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T miauku food",
-    "badges": ["KYC", "AUDIT"],
-    "gen": "NFT",
-    "chainImgUrl": "../images/eth.png",
-    "chain": "ETH",
-    "phase": "alpha",
-    "vipRanking": "11"
-  },
-  {
-    "id": "4",
     "coinImgUrl": "../images/soldier 1.png",
     "coin": "T doge food",
     "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "NFT",
+    "gen": "Game",
     "chainImgUrl": "../images/btc.png",
     "chain": "BSC",
-    "phase": "PREsALE",
-    "vipRanking": "11"
+    "phase": "PRESALE",
+    "vipRanking": "2"
   },
   {
-    "id": "4",
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T miauku food",
-    "badges": ["KYC", "AUDIT"],
-    "gen": "NFT",
-    "chainImgUrl": "../images/eth.png",
-    "chain": "ETH",
-    "phase": "alpha",
-    "vipRanking": "11"
-  },
-  {
-    "id": "4",
     "coinImgUrl": "../images/soldier 1.png",
     "coin": "T doge food",
     "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "NFT",
+    "gen": "Game",
     "chainImgUrl": "../images/btc.png",
     "chain": "BSC",
-    "phase": "PREsALE",
-    "vipRanking": "11"
-  },
-  {
-    "id": "4",
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T miauku food",
-    "badges": ["KYC", "AUDIT"],
-    "gen": "NFT",
-    "chainImgUrl": "../images/eth.png",
-    "chain": "ETH",
-    "phase": "alpha",
-    "vipRanking": "11"
-  },
-  {
-    "id": "4",
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "NFT",
-    "chainImgUrl": "../images/btc.png",
-    "chain": "BSC",
-    "phase": "PREsALE",
-    "vipRanking": "11"
-  },
-  {
-    "id": "4",
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T miauku food",
-    "badges": ["KYC", "AUDIT"],
-    "gen": "NFT",
-    "chainImgUrl": "../images/eth.png",
-    "chain": "ETH",
-    "phase": "alpha",
-    "vipRanking": "11"
-  },
-  {
-    "id": "4",
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "NFT",
-    "chainImgUrl": "../images/btc.png",
-    "chain": "BSC",
-    "phase": "PREsALE",
-    "vipRanking": "11"
-  },
-  {
-    "id": "4",
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T miauku food",
-    "badges": ["KYC", "AUDIT"],
-    "gen": "NFT",
-    "chainImgUrl": "../images/eth.png",
-    "chain": "ETH",
-    "phase": "alpha",
-    "vipRanking": "11"
-  },
-  {
-    "id": "4",
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "NFT",
-    "chainImgUrl": "../images/btc.png",
-    "chain": "BSC",
-    "phase": "PREsALE",
-    "vipRanking": "11"
-  },
-  {
-    "id": "4",
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T miauku food",
-    "badges": ["KYC", "AUDIT"],
-    "gen": "NFT",
-    "chainImgUrl": "../images/eth.png",
-    "chain": "ETH",
-    "phase": "alpha",
-    "vipRanking": "11"
-  },
-  {
-    "id": "4",
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "NFT",
-    "chainImgUrl": "../images/btc.png",
-    "chain": "BSC",
-    "phase": "PREsALE",
-    "vipRanking": "11"
-  },
-  {
-    "id": "4",
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T miauku food",
-    "badges": ["KYC", "AUDIT"],
-    "gen": "NFT",
-    "chainImgUrl": "../images/eth.png",
-    "chain": "ETH",
-    "phase": "alpha",
-    "vipRanking": "11"
-  },
-  {
-    "id": "4",
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "NFT",
-    "chainImgUrl": "../images/btc.png",
-    "chain": "BSC",
-    "phase": "PREsALE",
-    "vipRanking": "11"
-  },
-  {
-    "id": "4",
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T miauku food",
-    "badges": ["KYC", "AUDIT"],
-    "gen": "NFT",
-    "chainImgUrl": "../images/eth.png",
-    "chain": "ETH",
-    "phase": "alpha",
-    "vipRanking": "11"
+    "phase": "PRESALE",
+    "vipRanking": "2"
   }
 ]
