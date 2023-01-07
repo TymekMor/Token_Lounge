@@ -47,6 +47,7 @@
 }
 .blog__content {
   display: flex;
+
   flex-direction: column;
   gap: 2rem;
 }
@@ -57,6 +58,7 @@
 }
 .blog__content h1 {
   font-size: 1rem;
+  color: #eeeeee;
 }
 .blog__content p {
   color: var(--text-white);
@@ -67,6 +69,9 @@
   gap: 2rem;
   color: var(--text-white);
   list-style-position: outside;
+}
+.blog ol li {
+  margin-left: 30px;
 }
 .blog li {
   color: var(--text-white);
@@ -89,6 +94,7 @@
   align-items: center;
   gap: 2rem;
   margin-top: 2rem;
+  line-height: 1.75em;
 }
 .blog__conclusion h1 {
   font-weight: bold;
@@ -97,4 +103,12 @@
 .blog__conclusion p {
   text-align: center;
   color: var(--text-white);
+}
+.blog__indent {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.blog__indent li {
+  margin-left: 30px;
 }

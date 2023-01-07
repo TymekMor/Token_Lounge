@@ -1,212 +1,35 @@
 [
   {
     "coinImgUrl": "../images/soldier 1.png",
+    "coin": "asdsafas",
+    "badges": [],
+    "gen": "Game",
+    "chainImgUrl": "../images/eth.svg",
+    "chain": "BSC",
+    "phase": "PRESALE",
+    "vipRanking": "11",
+    "link": "https://stackoverflow.com/questions/2906582/how-do-i-create-an-html-button-that-acts-like-a-link"
+  },
+  {
+    "coinImgUrl": "../images/soldier 1.png",
+    "coin": "T doge food",
+    "badges": ["a"],
+    "gen": "Game",
+    "chainImgUrl": "../images/eth.svg",
+    "chain": "BSC",
+    "phase": "PRESALE",
+    "vipRanking": "11",
+    "link": "https://stackoverflow.com/questions/2906582/how-do-i-create-an-html-button-that-acts-like-a-link"
+  },
+  {
+    "coinImgUrl": "../images/btc.png",
     "coin": "T doge food",
     "badges": [],
     "gen": "Game",
     "chainImgUrl": "../images/eth.svg",
     "chain": "BSC",
     "phase": "PRESALE",
-    "vipRanking": "11"
-  },
-  {
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "Game",
-    "chainImgUrl": "../images/bsc.svg",
-    "chain": "BSC",
-    "phase": "PRESALE",
-    "vipRanking": "122"
-  },
-  {
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "Game",
-    "chainImgUrl": "../images/btc.png",
-    "chain": "BSC",
-    "phase": "PRESALE",
-    "vipRanking": "2123"
-  },
-  {
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "Game",
-    "chainImgUrl": "../images/btc.png",
-    "chain": "BSC",
-    "phase": "PRESALE",
-    "vipRanking": "221"
-  },
-  {
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "Game",
-    "chainImgUrl": "../images/btc.png",
-    "chain": "BSC",
-    "phase": "PRESALE",
-    "vipRanking": "232"
-  },
-  {
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "Game",
-    "chainImgUrl": "../images/btc.png",
-    "chain": "BSC",
-    "phase": "PRESALE",
-    "vipRanking": "2123"
-  },
-  {
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "Game",
-    "chainImgUrl": "../images/btc.png",
-    "chain": "BSC",
-    "phase": "PRESALE",
-    "vipRanking": "25"
-  },
-  {
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "Game",
-    "chainImgUrl": "../images/btc.png",
-    "chain": "BSC",
-    "phase": "PRESALE",
-    "vipRanking": "2"
-  },
-  {
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "Game",
-    "chainImgUrl": "../images/btc.png",
-    "chain": "BSC",
-    "phase": "PRESALE",
-    "vipRanking": "2"
-  },
-  {
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "Game",
-    "chainImgUrl": "../images/btc.png",
-    "chain": "BSC",
-    "phase": "PRESALE",
-    "vipRanking": "2"
-  },
-  {
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "Game",
-    "chainImgUrl": "../images/btc.png",
-    "chain": "BSC",
-    "phase": "PRESALE",
-    "vipRanking": "2"
-  },
-  {
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "Game",
-    "chainImgUrl": "../images/btc.png",
-    "chain": "BSC",
-    "phase": "PRESALE",
-    "vipRanking": "2"
-  },
-  {
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "Game",
-    "chainImgUrl": "../images/btc.png",
-    "chain": "BSC",
-    "phase": "PRESALE",
-    "vipRanking": "2"
-  },
-  {
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "Game",
-    "chainImgUrl": "../images/btc.png",
-    "chain": "BSC",
-    "phase": "PRESALE",
-    "vipRanking": "2"
-  },
-  {
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "Game",
-    "chainImgUrl": "../images/btc.png",
-    "chain": "BSC",
-    "phase": "PRESALE",
-    "vipRanking": "2"
-  },
-  {
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "Game",
-    "chainImgUrl": "../images/btc.png",
-    "chain": "BSC",
-    "phase": "PRESALE",
-    "vipRanking": "2"
-  },
-  {
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "Game",
-    "chainImgUrl": "../images/btc.png",
-    "chain": "BSC",
-    "phase": "PRESALE",
-    "vipRanking": "2"
-  },
-  {
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "Game",
-    "chainImgUrl": "../images/btc.png",
-    "chain": "BSC",
-    "phase": "PRESALE",
-    "vipRanking": "2"
-  },
-  {
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "Game",
-    "chainImgUrl": "../images/btc.png",
-    "chain": "BSC",
-    "phase": "PRESALE",
-    "vipRanking": "2"
-  },
-  {
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "Game",
-    "chainImgUrl": "../images/btc.png",
-    "chain": "BSC",
-    "phase": "PRESALE",
-    "vipRanking": "2"
-  },
-  {
-    "coinImgUrl": "../images/soldier 1.png",
-    "coin": "T doge food",
-    "badges": ["KYC", "AUDIT", "SAFU", "DOXX"],
-    "gen": "Game",
-    "chainImgUrl": "../images/btc.png",
-    "chain": "BSC",
-    "phase": "PRESALE",
-    "vipRanking": "2"
+    "vipRanking": "11",
+    "link": "https://stackoverflow.com/questions/2906582/how-do-i-create-an-html-button-that-acts-like-a-link"
   }
 ]

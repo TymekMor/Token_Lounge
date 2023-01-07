@@ -25,7 +25,7 @@ class token {
   }
 }
 const renderToken = (coin, renderPlace, id) => {
-  if (Object.keys(coin).length != 8) {
+  if (Object.keys(coin).length != 9) {
     return;
   }
   const token = document.createElement("li");
@@ -56,6 +56,7 @@ const renderToken = (coin, renderPlace, id) => {
       } else if (temp == "DOXX") {
         badgeDiv.classList.add(temp);
       }
+
       three.append(badgeDiv);
     });
   }
@@ -84,8 +85,10 @@ const renderToken = (coin, renderPlace, id) => {
   seven.textContent = coin.vipRanking;
 
   const eight = document.createElement("div");
-  const eightButton = document.createElement("button");
+  const eightButton = document.createElement("a");
   eightButton.textContent = "WEBSITE";
+  eightButton.setAttribute("href", coin.link);
+  eightButton.setAttribute("target", "_blank");
   eight.append(eightButton);
 
   token.append(one, two, three, four, five, six, seven, eight);

@@ -53,15 +53,15 @@
 .tokens__wrap {
   display: block;
   overflow-x: auto;
+  overflow-y: hidden;
 }
 .tokens__labels {
   display: grid;
   grid-template-columns: var(--desktop-grid);
-  gap: 0.5rem;
   font-size: 14px;
   color: var(--text-white);
   width: 1156px;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 20px;
   margin-bottom: 1rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -78,15 +78,23 @@
 
 .tokens__labels div:nth-child(7) {
   align-items: center;
-  gap: 5px;
   justify-content: center;
   position: relative;
 }
-.tokens__labels div:nth-child(7)::after {
-  content: "Vip ranking is designed to recognize projects that have a track record of success in the space, and are committed to helping the crypto community grow and thrive. It takes into account factors such as the project's team members, marketing presence, technology, and potential impact on the ecosystem. The higher the CryptoVIP score, the more likely the project is to succeed.";
-  z-index: 1000;
+.tokens__vip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  justify-content: center;
+}
+.tokens__vip--info {
+  z-index: -1;
   font-size: 0.5rem;
-  background: rgba(255, 255, 255, 0.08);
+  background: radial-gradient(
+    103.96% 103.96% at 56.56% 0%,
+    #0f224d 0%,
+    #000000 100%
+  );
   color: var(--text-white);
   height: 89px;
   width: 335px;
@@ -100,9 +108,11 @@
   opacity: 0;
   transition: all 200ms;
 }
-.tokens__labels div:nth-child(7):hover::after {
+.tokens__vip > span:hover + .tokens__vip--info {
   opacity: 1;
+  z-index: 2;
 }
+
 .tokens__labels div:nth-child(7) span {
   font-size: 9px;
 }
@@ -123,6 +133,10 @@
   display: grid;
   grid-template-columns: var(--desktop-grid);
   padding: 0.75rem 1rem;
+  transition: all 200ms;
+}
+.tokens__list > li:hover {
+  box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.8);
 }
 .tokens__list > li > div {
   display: flex;
@@ -166,7 +180,7 @@
   background: #f4b70f;
 }
 .tokens__list > li > div:nth-child(5) {
-  gap: 4px;
+  gap: 6px;
 }
 .tokens__list > li > div:nth-child(5) img {
   width: 1rem;
@@ -198,16 +212,27 @@
 .tokens__list > li > div:nth-child(8) {
   justify-content: flex-end;
 }
-.tokens__list > li > div:nth-child(8) > button {
+.tokens__list > li > div:nth-child(8) > a {
   font-size: 0.5rem;
   padding: 0.5rem 1.2rem;
   background: var(--blue);
+  margin-right: 4px;
   box-shadow: 0px 1.01493px 5px rgba(44, 93, 201, 0.5),
     inset 0px 1.52239px 0px rgba(255, 255, 255, 0.25),
     inset 0px 2.02985px 8.1194px #002eff,
     inset 0px -1.52239px 0px rgba(0, 0, 0, 0.25);
   border-radius: 6px;
+  transition: all 200ms;
+  cursor: pointer;
+  text-decoration: none;
 }
+.tokens__list > li > div:nth-child(8) > a:focus {
+  text-decoration: none;
+}
+.tokens__list > li > div:nth-child(8) > a:hover {
+  filter: drop-shadow(0px 0px 1px rgba(255, 255, 255, 0.8));
+}
+
 .tokens__slider {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -233,21 +258,16 @@
   color: var(--white);
   background: rgba(255, 255, 255, 0.08);
 }
-.tokens__list > li:nth-child(1),
-.tokens__list > li:nth-child(2),
-.tokens__list > li:nth-child(3) {
-  box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.8);
-  border-radius: 6px;
-}
+
 @media only screen and (max-width: 900px) {
   .tokens__list {
     width: 1000px;
   }
   .tokens__labels {
     width: 1000px;
-    grid-template-columns: var(--desktop-grid);
+    grid-template-columns: var(--mobile-grid);
   }
   .tokens__list > li {
-    grid-template-columns: var(--desktop-grid);
+    grid-template-columns: var(--mobile-grid);
   }
 }

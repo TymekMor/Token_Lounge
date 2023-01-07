@@ -1,8 +1,8 @@
 .legend {
   display: grid;
-  gap: 3rem;
+  gap: 5rem;
   grid-template-columns: repeat(3, 1fr);
-  padding: 3rem 1rem;
+  padding: 3rem 4rem;
   font-size: 10px;
   color: var(--text-white);
   line-height: 1.5em;
@@ -12,8 +12,18 @@
   flex-direction: column;
   gap: 1rem;
 }
-.legend__column > li > div {
-  line-height: 1em;
+.legend__column li {
+  position: relative;
+}
+.legend__column > li .badge {
+  position: absolute;
+  top: -4px;
+  left: -50px;
+  width: 31.01px;
+  height: 22.02px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .legend span {
   font-size: 12px;

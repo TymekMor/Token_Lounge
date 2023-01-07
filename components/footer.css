@@ -13,6 +13,13 @@ footer {
   text-shadow: 2px 2px 2px rgba(255, 255, 255);
   position: relative;
 }
+.footer__logo img {
+  height: 45px;
+  width: 250px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 1rem;
+}
 .footer__logo::after {
   content: "Copyright © 2022 gaming.lounge. All rights reserved.";
   color: var(--text-white);

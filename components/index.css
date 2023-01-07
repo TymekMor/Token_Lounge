@@ -17,8 +17,9 @@ button {
   --white: #ffffff;
   --blue: #2c5dc9;
   --text-white: rgba(255, 255, 255, 0.6);
-  --desktop-grid: 2rem 12rem 1.2fr repeat(4, 1fr) 5rem;
-  --mobile-grid: 2rem 12rem 1.5fr repeat(5, 1fr);
+  --desktop-grid2: 2rem 12rem 1fr 0.6fr repeat(2, 1fr) 1.5fr 5rem;
+  --desktop-grid: 39px 201px 177px 100px 155px 172px 180px 1fr;
+  --mobile-grid: 39px 150px 177px 70px 110px 140px 190px 1fr;
 }
 body {
   background: radial-gradient(
