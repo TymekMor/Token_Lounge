@@ -28,7 +28,7 @@ body {
     #000000 100%
   );
   color: var(--white);
-  height: 100%;
+  min-height: 100vh;
 }
 main {
   display: flex;
