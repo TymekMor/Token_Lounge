@@ -92,7 +92,7 @@ const renderTokenPage = (pageIndex, pageNumber, tokenList) => {
       el.className = "current";
     }
     el.addEventListener("click", (event) => {
-      fetch("./data.json")
+      fetch("./components/data.json")
         .then((response) => response.json())
         .then((data) => renderTokenPage(i, pageNumber, data));
       console.log(event.target);

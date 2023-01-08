@@ -47,13 +47,13 @@ for (let i = 0; i < sideNavBlogs.length; i++) {
 console.clear();
 const logo = document.getElementById("logo");
 logo.addEventListener("click", () => {
-  fetch("./data.json")
+  fetch("./components/data.json")
     .then((response) => response.json())
     .then((data) => renderTokenPage(1, 20, data));
   removeSideNav();
 });
 window.onload = () => {
-  fetch("./data.json")
+  fetch("./components/data.json")
     .then((response) => response.json())
     .then((data) => renderTokenPage(1, 20, data));
 };
