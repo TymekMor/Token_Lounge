@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap");
 .tokens {
   display: flex;
   flex-direction: column;
@@ -67,6 +68,9 @@
 }
 .tokens__labels div {
   display: flex;
+  font-size: 14px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: bold;
   min-width: min-content;
 }
 
@@ -78,7 +82,7 @@
 
 .tokens__labels div:nth-child(7) {
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   position: relative;
 }
 .tokens__vip {
@@ -86,6 +90,7 @@
   align-items: center;
   gap: 6px;
   justify-content: center;
+  font-family: "Space Grotesk", sans-serif;
 }
 .tokens__vip--info {
   z-index: -1;
@@ -103,6 +108,7 @@
   bottom: -100px;
   opacity: 0;
   transition: all 200ms;
+  font-family: "Space Grotesk", sans-serif;
 }
 .tokens__vip > span:hover + .tokens__vip--info {
   opacity: 1;
@@ -139,7 +145,9 @@
   overflow: hidden;
   align-items: center;
 }
-
+.tokens__list > li > div:nth-child(1) {
+  font-weight: bold;
+}
 .tokens__list > li > div:nth-child(2) {
   gap: 0.5rem;
 }
@@ -147,8 +155,8 @@
   border: 1.2px solid #c5c5c7;
 }
 .tokens__list > li > div:nth-child(2) img {
-  width: 2rem;
-  height: 2rem;
+  width: 32.3px;
+  height: 32.3px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
@@ -186,6 +194,11 @@
   object-fit: cover;
   object-position: center;
 }
+.tokens__list > li > div:nth-child(6),
+.tokens__list > li > div:nth-child(7) {
+  font-family: "Space Grotesk", sans-serif;
+  letter-spacing: 0.2px;
+}
 .tokens__list > li > div:nth-child(6) img {
   width: 1.2rem;
   height: 1.2rem;
@@ -203,9 +216,12 @@
   justify-content: center;
 }
 .tokens__list > li > div:nth-child(7) {
+  justify-content: flex-end;
+  padding-right: 18px;
   text-shadow: 0px 0px 10px #2c5dc9;
 }
 .tokens__list > li > div:nth-child(8) {
+  padding: 8px;
   justify-content: flex-end;
 }
 .tokens__list > li > div:nth-child(8) > a {

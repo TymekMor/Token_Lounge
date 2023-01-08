@@ -6,19 +6,27 @@ footer {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   margin-top: 4rem;
 }
-
+footer a {
+  text-decoration: none;
+}
+footer a:focus {
+  text-decoration: none;
+}
 .footer__logo {
   font-size: 2rem;
   font-family: "Audiowide", cursive;
   text-shadow: 2px 2px 2px rgba(255, 255, 255);
   position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .footer__logo img {
-  height: 45px;
-  width: 250px;
+  height: 29.25px;
+  width: 236.25px;
   object-fit: cover;
   object-position: center;
-  border-radius: 1rem;
 }
 .footer__logo::after {
   content: "Copyright © 2022 gaming.lounge. All rights reserved.";
@@ -27,8 +35,8 @@ footer {
   text-shadow: none;
   position: absolute;
   white-space: nowrap;
-  left: 1em;
-  bottom: -1.5em;
+  left: 0;
+  bottom: -1.8em;
 }
 .footer__logo span {
   font-size: 2rem;

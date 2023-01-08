@@ -1,29 +1,5 @@
 import removeChildNodes from "./help.js";
-import JsonFile from "./data.json" assert { type: "json" };
 
-class token {
-  constructor(
-    id,
-    coinImgUrl,
-    coin,
-    badges,
-    gen,
-    chainImgUrl,
-    chain,
-    phase,
-    vipRanking
-  ) {
-    this.id = id;
-    this.coinImgUrl = coinImgUrl;
-    this.coin = coin;
-    this.badges = badges;
-    this.gen = gen;
-    this.chainImgUrl = chainImgUrl;
-    this.chain = chain;
-    this.phase = phase;
-    this.vipRanking = vipRanking;
-  }
-}
 const renderToken = (coin, renderPlace, id) => {
   if (Object.keys(coin).length != 9) {
     return;
@@ -95,8 +71,7 @@ const renderToken = (coin, renderPlace, id) => {
   renderPlace.append(token);
 };
 
-const renderTokenPage = (pageIndex, pageNumber) => {
-  const tokenList = JsonFile;
+const renderTokenPage = (pageIndex, pageNumber, tokenList) => {
   const index = pageIndex - 1;
   const main = document.querySelector("main");
   const mainPage = document.getElementById(`page0`).content.cloneNode(true);
@@ -117,7 +92,9 @@ const renderTokenPage = (pageIndex, pageNumber) => {
       el.className = "current";
     }
     el.addEventListener("click", (event) => {
-      renderTokenPage(i, pageNumber);
+      fetch("./data.json")
+        .then((response) => response.json())
+        .then((data) => renderTokenPage(i, pageNumber, data));
       console.log(event.target);
     });
 

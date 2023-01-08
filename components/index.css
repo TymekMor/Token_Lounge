@@ -18,8 +18,8 @@ button {
   --blue: #2c5dc9;
   --text-white: rgba(255, 255, 255, 0.6);
   --desktop-grid2: 2rem 12rem 1fr 0.6fr repeat(2, 1fr) 1.5fr 5rem;
-  --desktop-grid: 39px 201px 177px 100px 155px 172px 180px 1fr;
-  --mobile-grid: 39px 150px 177px 70px 110px 140px 190px 1fr;
+  --desktop-grid: 34px 201px 177px 100px 155px 172px 160px 1fr;
+  --mobile-grid: 34px 150px 177px 70px 110px 140px 160px 1fr;
 }
 body {
   background: radial-gradient(
@@ -38,6 +38,7 @@ main {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 3rem;
+  padding-bottom: 3rem;
   max-width: 1186px;
   margin: auto;
 }
