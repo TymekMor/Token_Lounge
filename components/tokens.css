@@ -282,4 +282,8 @@
   .tokens__list > li {
     grid-template-columns: var(--mobile-grid);
   }
+  .tokensNav button:nth-child(2),
+  .tokensNav button:nth-child(3) {
+    display: none;
+  }
 }

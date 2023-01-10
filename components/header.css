@@ -8,6 +8,7 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(50px);
   white-space: nowrap;
+  min-height: 99px;
 }
 .header__logo {
   cursor: pointer;
@@ -16,8 +17,8 @@
   align-items: center;
 }
 .header__logo img {
-  height: 39px;
-  width: 315px;
+  aspect-ratio: 8, 07;
+  max-width: 220px;
   object-fit: cover;
   object-position: center;
 }
@@ -29,14 +30,19 @@
 .header__buttons {
   display: flex;
 }
-.header__buttons button {
+.header__buttons a {
   padding: 1rem 2rem;
   font-family: "Space Grotesk", sans-serif;
   font-weight: bold;
   font-size: 14px;
   transition: all 200ms;
+  cursor: pointer;
+  text-decoration: none;
 }
-.header__buttons button:first-child:hover {
+.header__buttons a:focus {
+  text-decoration: none;
+}
+.header__buttons a:first-child:hover {
   text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.8);
 }
 .highlight:hover {
@@ -54,7 +60,7 @@
   display: none;
 }
 @media only screen and (max-width: 900px) {
-  .header__buttons > button {
+  .header__buttons > a {
     display: none;
   }
   .dropdown {

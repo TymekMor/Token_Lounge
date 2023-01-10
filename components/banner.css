@@ -17,9 +17,12 @@
   top: 144px;
   width: 485px;
   height: 94px;
-  background: url("../images/TOP\ 15\ TReNDINGTOKENS\ &\ Games.png");
-  background-repeat: no-repeat;
-  background-position: center;
+  font-family: "Rubik Mono One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 1.23em;
+  color: #ebe9e8;
 }
 .banner__token {
   position: absolute;
@@ -38,4 +41,14 @@
   z-index: 2;
   transform: matrix(1, 0, 0, 1, 0, 0);
   background: url("../images/eth.png");
+}
+
+@media only screen and (max-width: 900px) {
+  .banner__token {
+    display: none;
+  }
+  .banner__text {
+    font-size: 28px;
+    top: 154px;
+  }
 }

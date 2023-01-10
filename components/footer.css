@@ -4,7 +4,7 @@ footer {
   align-items: center;
   padding: 4rem 0rem;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 footer a {
   text-decoration: none;
@@ -12,6 +12,7 @@ footer a {
 footer a:focus {
   text-decoration: none;
 }
+
 .footer__logo {
   font-size: 2rem;
   font-family: "Audiowide", cursive;
@@ -23,8 +24,8 @@ footer a:focus {
   align-items: center;
 }
 .footer__logo img {
-  height: 29.25px;
-  width: 236.25px;
+  aspect-ratio: 8, 07;
+  width: 200px;
   object-fit: cover;
   object-position: center;
 }
@@ -54,4 +55,13 @@ footer li {
   gap: 4px;
   justify-content: center;
   align-items: center;
+}
+@media only screen and (max-width: 900px) {
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3rem;
+    padding-bottom: 2rem;
+  }
 }

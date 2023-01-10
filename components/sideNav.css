@@ -16,8 +16,15 @@
   width: 85%;
   display: none;
 }
-.sideNav__buttons button {
+.sideNav__buttons a {
   padding: 1rem 2rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+}
+.sideNav__buttons a:focus {
+  text-decoration: none;
 }
 .sideNav__socials {
   display: flex;
