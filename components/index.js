@@ -7,7 +7,6 @@ const main = document.querySelector("main");
 const sideNavBlogs = document
   .querySelector(".sideNav__blog")
   .querySelectorAll("li");
-console.log(sideNavBlogs);
 
 const removeSideNav = () => {
   hamburgerMenu.classList.remove("open");
@@ -32,28 +31,12 @@ window.addEventListener("resize", () => {
   }
 });
 
-const renderBlog = (i) => {
-  removeChildNodes(main);
-  const clonePage = document.getElementById(`page${i}`).content.cloneNode(true);
-  main.appendChild(clonePage);
-};
+const fileName = location.pathname.split("/").slice(-1);
 
-for (let i = 0; i < sideNavBlogs.length; i++) {
-  sideNavBlogs[i].addEventListener("click", () => {
-    renderBlog(i + 1);
-    removeSideNav();
-  });
+if (fileName == "index.html") {
+  window.onload = () => {
+    fetch("./components/data.json")
+      .then((response) => response.json())
+      .then((data) => renderTokenPage(1, 20, data));
+  };
 }
-console.clear();
-const logo = document.getElementById("logo");
-logo.addEventListener("click", () => {
-  fetch("./components/data.json")
-    .then((response) => response.json())
-    .then((data) => renderTokenPage(1, 20, data));
-  removeSideNav();
-});
-window.onload = () => {
-  fetch("./components/data.json")
-    .then((response) => response.json())
-    .then((data) => renderTokenPage(1, 20, data));
-};

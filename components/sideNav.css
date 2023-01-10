@@ -78,10 +78,10 @@
   gap: 2rem;
   color: var(--text-white);
 }
-.sideNav__blog > ul > li {
+.sideNav__blog > ul li {
   transition: 200ms all;
 }
-.sideNav__blog > ul > li:hover {
+.sideNav__blog > ul li:hover {
   color: #ffffff;
   text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
   cursor: pointer;

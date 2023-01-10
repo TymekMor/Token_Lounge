@@ -8,6 +8,13 @@
   font-family: "Sora", sans-serif;
   color: inherit;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:focus {
+  text-decoration: none;
+}
 button {
   background: none;
   border: none;
